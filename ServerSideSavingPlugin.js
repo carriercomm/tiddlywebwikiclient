@@ -162,7 +162,7 @@ config.macros.saveToWeb = { // XXX: hijack existing sync macro?
 	}
 };
 
-saveChanges = function(onlyIfDirty, tiddlers) {
+window.saveChanges = function(onlyIfDirty, tiddlers) {
 	plugin.sync(tiddlers);
 };
 
